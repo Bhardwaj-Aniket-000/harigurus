@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.hamburger-menu-li {
+		@apply py-4 border-b border-[#1D3443] cursor-pointer;
+	}
+	.hamburger-menu-a {
+		@apply text-white capitalize font-inter text-sm hover:text-[#F75A25] relative;
+	}
+	.form-border {
+		@apply border-b border-b-[#2F4C60];
+	}
+}
+@layer base {
+	@font-face {
+		font-family: inter;
+		src: url(/font/Inter-Regular.ttf);
+	}
+	@font-face {
+		font-family: philospher;
+		src: url(/font/Philosopher-Regular.ttf);
+	}
+}
